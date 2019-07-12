@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/index.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA,C","file":"css/main.css","sourcesContent":["body{\r\n    background: red;\r\n    -webkit-overflow-scrolling: touch;\r\n}"],"sourceRoot":""}
