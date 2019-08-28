@@ -1,0 +1,19 @@
+{
+    "name": "rayyang-webpack",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "bin": {
+        "a": "./bin/rayyang-webpack.js"
+    },
+    "devDependencies": {
+        "@babel/generator": "^7.2.2",
+        "@babel/traverse": "^7.2.3",
+        "@babel/types": "^7.2.2",
+        "babylon": "^6.18.0"
+    },
+    "dependencies": {
+        "ejs": "2",
+        "tapable": "^2.0.0-beta.2"
+    }
+}

@@ -1,5 +1,5 @@
 import c from './c.js'
-import './index.css'
+// import './index.css'
 // import './index.less'
 // import './index.scss'
 // import './asserts/1.jpg'

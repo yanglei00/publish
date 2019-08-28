@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.config.loader.js",
-    "build": "webpack --config webpack.config.loader.js"
+    "build": "webpack --config webpack.config.base-1.js"
   },
   "keywords": [],
   "author": "",
@@ -44,7 +44,8 @@
     "vue-template-compiler": "^2.6.10",
     "webpack": "^4.35.2",
     "webpack-dev-server": "^3.7.2",
-    "webpack-merge": "^4.2.1"
+    "webpack-merge": "^4.2.1",
+    "webpack-node-externals": "^1.7.2"
   },
   "devDependencies": {
     "webpack-cli": "^3.3.5"
