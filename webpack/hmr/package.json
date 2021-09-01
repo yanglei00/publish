@@ -1,0 +1,31 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve",
+    "debug": "node ./node_modules/.bin/webpack serve",
+    "build": "webpack",
+    "test": "node @webpack-cli/serve/lib/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "loadsh": "0.0.4",
+    "lodash": "^4.17.21",
+    "memory-fs": "^0.5.0",
+    "mime": "^2.5.2",
+    "sockjs-client": "^1.5.1",
+    "ws": "^8.1.0"
+  }
+}
